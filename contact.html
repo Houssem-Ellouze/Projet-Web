@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cndjs.cloudfare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css?2family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap" rel="stylesheet">
+    <script src="./file js.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="portfolio"> Portfolio</a>
+
+    <nav class="nav">  
+        <a href="index.html">Acceuil</a>
+        <a href="à propos.html">à propos</a>
+        <a href="compétances.html" >Compétances</a>
+        <a href="#" class="active">Contact</a>
+    </nav>
+    </header>
+
+
+    <div class="container">
+    <main class="row">
+        <!-- Begin left section-->
+        <section class="colleft" id="colleft">
+            <!--title-->
+            <div class="contacttitle">
+                
+                    <h1 id="title">Pour Contacter</h1>
+                    <br>
+                    <br>
+                    <!--La description du contact-->
+                    <p id="phrase">Merci d'avoir pris le temps de nous aider à améliorer la plateforme</p>
+                    
+            </div>
+            <!-- title end-->
+
+            <!--contact info starts-->
+
+            <div class="contactinfo">
+
+            <div class="icongroupe " id="gr">
+            <div class="icon">
+                <i class="fa-solide-fa-phone"></i>
+            </div>
+            <div class="details">
+                <span>Phone</span>
+                <br>
+                <br>
+                <span>+216 94 415 244 </span>
+                <br>
+                <br>
+            </div>
+
+            </div>
+
+
+            <div class="icongroupe" id="gr">
+            <div class="icon">
+                <i class="fa-solide-fa-envelope"></i>
+            </div>
+            <div class="details">
+                <span>E-mail :</span>
+                <br>
+                <br>
+                <span>houssem.ellouze@esprit.tn</span>
+                <br>
+                <br>
+            </div>
+
+            </div>
+
+            <div class="icongroupe" id="gr">
+                <div class="icon">
+                    <i class="fa-solide-fa-location-dot"></i>
+                </div>
+                <div class="details">
+                    <span>Adresse :</span>
+                    <br>
+                    <br>
+                    <span>Ariana , Tunisie</span>
+                    <br>
+                    <br>
+                </div>
+        
+    
+            </div>
+
+            
+            </div>
+            <br>
+            <br>
+            
+            
+
+            <!--contact info ends-->
+<br><br><br><br>
+<h3>Pour les autres résaux</h3>
+<br>
+            <!--social ;edia starts-->
+            <div class="socialmedia" id="dig">
+                <button>
+                <a href="https://www.linkedin.com/in/houssem-ellouze-b51b0b211/"><i class="fa-brands fa-linkedin-in"></i>Linkedin</a> 
+               </button>
+               <button> 
+                <a href="https://github.com/Houssem-Ellouze" ><i class="fa-brans fa-github"></i>Github</a>
+               </button>
+        
+            </div>
+            <!--social ;edia ends-->
+
+
+        </section>
+
+        <!--End left section-->
+
+        <!-- begin right section-->
+        <section class="colright">
+
+            <!-- form starts-->
+            <form id="messageform" class="messageform" onsubmit="return validateForm()">
+
+            <div class="inputgroupe">
+                <label>Nom et prenom </label>
+                <input type="text" name="fullname" required="required">
+                
+                <br>
+                <br>
+                <label>E-mail</label>
+                <input type="email" name="email" required="required">
+                
+           <br>
+           <br>
+           <label>Numero</label>
+                <input type="text" name="tel" required="required">
+                
+          <br><br>
+          <label>Sujet</label>
+          <textarea name="subject" required="required"></textarea>
+
+                
+     <br><br>
+                <button >Envoyer un message</button>
+                
+            </div>
+
+
+            </form>
+            <!--form end -->
+
+        </section>
+
+        <!-- End right sectin-->
+
+    <main>
+
+    </div>
+
+
+    <footer>
+        <div id="footer">
+
+            <hr>
+            <p>&copy; 2023 Tous droits réservés </p>
+
+        </div>
+
+    </footer>
+</body>
+</html>

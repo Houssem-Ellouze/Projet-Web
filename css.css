@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Poppins','sans-serif';
+}
+body{
+    background: #1f242d;
+    color: #ffff;
+
+}
+.header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.portfolio{
+    font-size: 25px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 600;
+    animation: slideRight 1s ease forwards ;
+}
+.nav a{
+    font-size: 18px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+    
+.nav a:hover ,
+.nav a.active{
+    color: rgb(19, 119, 146);
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-content {
+    max-width: 600px;
+    font-size: large;
+    margin-left: 150px; 
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-img img{
+    max-width: 450px;
+    margin-right: 200px;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin : -3px 0;
+}
+.home-content h1 span{
+    color: rgb(0, 153, 255);
+}
+#propos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formation h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formation li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.loisirs  div{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
+   
+}
+.loisirs h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#comp{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.compétances h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.compétances li{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.compétances div{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
+   
+}
+#exp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exp h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.exp h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.exp li{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.exp p{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#projet-aca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    font-weight: 400;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 8%;
+}
+.container .row{
+    display: flex;
+    justify-content:space-between ;
+    width: 100%;
+    max-width: 1100px;
+}
+.row section.col{
+    display: flex;
+    flex-direction: column; 
+}
+.row section.left{
+    flex-basis: 35%;
+    min-width: 320px;
+    margin-right: 60px;
+    background-color: yellow;
+}.row section.right{
+    flex-basis: 60%;
+    background-color: lightgreen;
+}
+.colleft.contacttitle h1{
+    position: relative;
+    font-size: 28px;
+    color: #ddd;
+    display: inline-block;
+    margin-bottom: 25px
+}
+
+.colleft.contacttitle h1::before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    background-color: #888;
+    top:120%;
+    left: 0;
+}
+.colleft.contacttitle h1::after{
+    content: '';
+    position: absolute;
+    width: 25%;
+    height: 3px;
+    background-color: dodgerblue;
+    top : calc(120% - 1px);
+    left: 0;
+}
+#phrase{
+    font-size: 17px;
+    color: #ccc;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    padding-bottom: 22px;
+
+}
+.#dig{
+    margin-bottom: 16px;
+}
+#gr{
+    display: flex;
+    align-items: center;
+    margin: 25px 0 px;
+}
+.icongroupe.icon{
+    width: 45px;
+    height: 45px;
+    border: 2px solid dodgerblue;
+    border-radius: 50%;
+    margin-right: 30px;
+    position: relative;
+
+}
+.icongroupe.icon i{
+    font-size: 20px;
+    color: #ddd;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50% -50%);
+}
+
+.icongroupe.details span{
+    display: block;
+    color: #888;
+    font-size: 18px;
+}
+.icongroupe.details span:nth-child(1){
+    test-transform : uppercase;
+    color: #ccc;
+}
+.#dig{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 22px 0px 20px;
+
+}
+.messageform{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.calright.messageform.inputgroupe{
+    margin: 18px 0px;
+    position: relative;
+}
+.messageform.halfwidth{
+    flex-basis: 48%;
+}
+.messageform.halfwidth{
+    flex-basis: 48%;
+}
+.messageform.fullwidth{
+    flex-basis: 100%;
+}
+.messageform input {
+    width: 100%;
+    font-size: 18px;
+    padding: 2px 0px;
+    background-color: #2e2e2e;
+    color: #ddd;
+    border: none;
+    border-bottom: 2px solid #666;
+    outline: none;
+}
+.messageform textarea{
+    width: 100%;
+    font-size: 18px;
+    padding: 2px 0px;
+    background-color: #2e2e2e;
+    color: #ddd;
+    border: none;
+    border-bottom: 2px solid #666;
+    outline: none;
+    resize: none;
+    height: 220px;
+    display: block;
+}
+.messageform button {
+    padding: 8px 16px;
+    font-size: 18px;
+    background-color: dodgerblue;
+    color: #ddd;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.socialmedia button{
+    padding: 8px 16px;
+    font-size: 18px;
+    background-color: dodgerblue;
+    color: #fff ;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3s);
+    transition: 0.4s;
+}
+.messageform button:hover{
+    background-color: #2e2e2e;
+    color: dodgerblue;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3s);
+    border: 1px solid dodgerblue;
+}
+.socialmedia button:hover{
+    background-color: #2e2e2e;
+    color: dodgerblue;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3s);
+    border: 1px solid dodgerblue;
+}
+.container-photo {
+    display: flex; 
+}
+.comp-tout {
+    display: flex; 
+}
+.compétances,.compétances-lingustique{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+#comp{
+    justify-content: center;
+    align-items: center;
+    text-align: center
+    ;
+}
+.compétances-lingustique{
+    text-align: center;
+}
+
+#exp{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.exp-pro{
+    text-align: center;
+
+}
+
+.propos-funct {
+    font-size: 1.2em;
+    line-height: 1.6; 
+    color: #fff; 
+    
+}
